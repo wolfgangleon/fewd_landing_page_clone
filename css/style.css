@@ -93,7 +93,7 @@ div {
 	float: right;
 	display: inline-block;
 	line-height: 70px;
-	margin-right: 75px;
+	margin-right: 85px;
 }
 
 .links> li {
@@ -108,5 +108,5 @@ div {
 
 .links > .active {
 	color: #4c5058;
-    font-weight: 500;
+    font-weight: 600;
 }
