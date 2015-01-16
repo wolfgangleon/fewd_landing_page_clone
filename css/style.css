@@ -66,11 +66,20 @@ div {
 .top-navigation > .content  {
 	width:970px;
 	height: 70px;
-	margin: 0 auto;
+	margin:0 auto;
+	padding:0 15px;
 	
 }
 
-.top-navigation > .content > .logo {
-	margin-left: 87px;
-	
+.logo {
+
+}
+
+.links {
+	float: right;
+	display: inline-block;
+}
+
+.links> li {
+	display: inline;
 }
