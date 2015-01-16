@@ -76,6 +76,7 @@ div {
 	letter-spacing: 0.03em;
 	font-size: 16.5px;
 	color:#838994;
+	box-sizing: border-box;
 }
 
 .content {
@@ -110,3 +111,35 @@ div {
 	color: #4c5058;
     font-weight: 600;
 }
+
+					/* End of Navigation bar */
+
+.introduction > .content {
+	background-image: url("../images/first-background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 bottom;
+	height: 735px; 
+	margin: 0 auto;
+	color:white;
+	overflow: auto 0;
+
+}
+
+
+.introduction > .content > h1{
+	font-family: 'roboto' sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 17.25rem;
+	margin-left: 0;
+
+}
+
+.introduction > .content > h3 {
+	font-family: 'roboto' sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 1.25rem;
+}
+
