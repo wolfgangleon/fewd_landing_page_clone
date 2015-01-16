@@ -56,3 +56,21 @@ body {
 div {
 	border:1px solid chocolate;
 }
+
+    /* Navigation Section */
+
+.top-navigation {
+	background-color: #ffffff;
+}
+
+.top-navigation > .content  {
+	width:970px;
+	height: 70px;
+	margin: 0 auto;
+	
+}
+
+.top-navigation > .content > .logo {
+	margin-left: 87px;
+	
+}
