@@ -53,19 +53,13 @@ table {
 
 /* end Added styles with reset */ 
 
-body {
-	background-color: lightgray;
-}
-
-div {
-	border:1px solid chocolate;
-}
-
     /* Navigation Section */
 
 .top-navigation {
 	background-color: #ffffff;
 	font-family: 'roboto' sans-serif;
+	float: left;
+	width: 100%;
 }
 
 .top-navigation > .content  {
@@ -116,9 +110,8 @@ div {
 
 .introduction > .content {
 	background-image: url("../images/first-background.jpg");
-	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 0 bottom;
+	-webkit-background-size: cover;
 	height: 735px; 
 	margin: 0 auto;
 	color:white;
@@ -129,17 +122,33 @@ div {
 
 .introduction > .content > h1{
 	font-family: 'roboto' sans-serif;
-	font-size: 50px;
+	font-size: 3.12rem;
 	text-align: center;
-	margin-top: 17.25rem;
-	margin-left: 0;
-
+	padding-top: 17.25rem;
+	font-weight: 300 !important;
 }
 
 .introduction > .content > h3 {
 	font-family: 'roboto' sans-serif;
-	font-size: 20px;
+	font-size: 1.53em;
 	text-align: center;
 	margin-top: 1.25rem;
+	font-weight: 300 !important;
+}
+
+.introduction > .content > .buttons {
+	margin:0 auto;
+	margin-top: 1rem;
+	text-align: center;
+}
+.introduction > .content > .buttons > button {
+	text-align: center;
+	width: 9.68rem;
+	background-color: #f15a29;
+	border-radius: 4px;
+	border-style: none;
+	color:white;
+	font-size: 1.125rem;
+	padding:1rem 1.25rem;
 }
 
