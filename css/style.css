@@ -152,3 +152,8 @@ table {
 	padding:1rem 1.25rem;
 }
 
+.introduction > .content > .buttons > button:hover {
+	background-color: #f14a29;
+	cursor: pointer;
+}
+
