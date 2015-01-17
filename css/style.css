@@ -157,3 +157,8 @@ table {
 	cursor: pointer;
 }
 
+ 						/* section nueva */ 
+
+.new > .content > h1 {
+	padding:5rem;
+}
