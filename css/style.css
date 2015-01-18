@@ -53,6 +53,10 @@ table {
 
 /* end Added styles with reset */ 
 
+div {
+	border:1px solid chocolate;
+}
+
     /* Navigation Section */
 
 .top-navigation {
@@ -60,6 +64,8 @@ table {
 	font-family: 'roboto' sans-serif;
 	float: left;
 	width: 100%;
+	position: fixed;
+	z-index: 9999;
 }
 
 .top-navigation > .content  {
@@ -157,8 +163,33 @@ table {
 	cursor: pointer;
 }
 
- 						/* section nueva */ 
+ 						/* section cases */ 
 
-.new > .content > h1 {
-	padding:5rem;
+.cases > .content {
+	margin-top: 4rem;
+	margin: 0 auto;
+	height: 525px;
+
+}
+
+.cases > .content > h2 {
+	margin-top: 7.85rem;
+	text-align: center;
+	font-family: 'roboto' sans-serif;
+	font-size: 2.75rem;
+	font-weight: 300;
+
+}
+
+.cases>.content > ul {
+	margin:0 auto;
+	list-style-type: none;
+	margin-top: 3.125rem;
+}
+
+.cases >.content > ul > li {
+	display: inline;
+	float: left;
+	width: 33.33%;
+
 }
