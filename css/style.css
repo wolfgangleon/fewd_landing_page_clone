@@ -193,6 +193,7 @@ table {
 }
 
 .cases > .content > ul > li> h3 {
+	margin-top: 1rem;
 	font-family:'roboto' sans-serif;
 	font-size: 1.563rem;
 }
