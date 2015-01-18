@@ -53,9 +53,6 @@ table {
 
 /* end Added styles with reset */ 
 
-div {
-	border:1px solid chocolate;
-}
 
     /* Navigation Section */
 
@@ -169,6 +166,7 @@ div {
 	margin-top: 4rem;
 	margin: 0 auto;
 	height: 525px;
+	color: #1d1e21;
 
 }
 
@@ -182,7 +180,7 @@ div {
 }
 
 .cases>.content > ul {
-	margin:0 auto;
+	text-align: center;
 	list-style-type: none;
 	margin-top: 3.125rem;
 }
@@ -192,4 +190,9 @@ div {
 	float: left;
 	width: 33.33%;
 
+}
+
+.cases > .content > ul > li> h3 {
+	font-family:'roboto' sans-serif;
+	font-size: 1.563rem;
 }
