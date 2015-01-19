@@ -176,6 +176,7 @@ table {
 	font-family: 'roboto' sans-serif;
 	font-size: 2.75rem;
 	font-weight: 300;
+	margin-right: 
 
 }
 
@@ -183,6 +184,8 @@ table {
 	text-align: center;
 	list-style-type: none;
 	margin-top: 3.125rem;
+	margin-right: 20.5%;
+	margin-left: 20.5%;
 }
 
 .cases >.content > ul > li {
@@ -193,7 +196,7 @@ table {
 }
 
 .cases > .content > ul > li> h3 {
-	margin-top: 1rem;
+	margin-top: 2rem;
 	font-family:'roboto' sans-serif;
 	font-size: 1.563rem;
 }
