@@ -223,7 +223,6 @@ table {
 	font-family: 'roboto' sans-serif;
 	margin-right: 20%;
 	margin-left:20%;
-	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
 
@@ -244,9 +243,8 @@ table {
 	margin-right: 2rem;
 	margin-left: 2rem;
 
-
-
 }
+
 
 .social >.content > p {
 	font-family: 'roboto' sans-serif;
