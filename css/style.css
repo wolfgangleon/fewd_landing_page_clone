@@ -170,6 +170,7 @@ table {
 	margin: 0 auto;
 	height: 525px;
 	color: #1d1e21;
+	margin-bottom: -8rem;
 
 }
 
@@ -208,11 +209,18 @@ table {
 
 .social {
 	height: 305px;
+	margin: 0 auto;
+}
+
+.social> .content > hr {
+	border-top: 1px solid lightgray;
+	margin: 1.3rem 0;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 .social > .content > h5 {
 	text-align: center;
 	font-family: 'roboto' sans-serif;
-	border-top: 1px solid lightgray;
 	margin-right: 20%;
 	margin-left:20%;
 	padding-top: 1rem;
@@ -220,13 +228,24 @@ table {
 }
 
 .social > .content > ul {
+	margin: 0 auto;
 	text-align: center;
+	padding:2rem;
+	border: 1.5rem;
 	
 }
  
 .social >.content > ul > li {
 	display: inline;
+	height: 2.5rem;
+	width: 2.5rem;
 	border:1px solid lightgray;
+	border-radius: 50%;
+	margin-right: 2rem;
+	margin-left: 2rem;
+
+
+
 }
 
 .social >.content > p {
