@@ -63,6 +63,7 @@ table {
 	width: 100%;
 	position: fixed;
 	z-index: 9999;
+	border: 1px solid lightgray;
 }
 
 .top-navigation > .content  {
@@ -74,6 +75,7 @@ table {
 	font-size: 16.5px;
 	color:#838994;
 	box-sizing: border-box;
+
 }
 
 .content {
@@ -129,6 +131,7 @@ table {
 	text-align: center;
 	padding-top: 17.25rem;
 	font-weight: 300 !important;
+	
 }
 
 .introduction > .content > h3 {
@@ -200,3 +203,37 @@ table {
 	font-family:'roboto' sans-serif;
 	font-size: 1.563rem;
 }
+
+					/* end of cases */
+
+.social {
+	height: 305px;
+}
+.social > .content > h5 {
+	text-align: center;
+	font-family: 'roboto' sans-serif;
+	border-top: 1px solid lightgray;
+	margin-right: 20%;
+	margin-left:20%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.social > .content > ul {
+	text-align: center;
+	
+}
+ 
+.social >.content > ul > li {
+	display: inline;
+	border:1px solid lightgray;
+}
+
+.social >.content > p {
+	font-family: 'roboto' sans-serif;
+	text-align: center;
+	font-size: 0.9rem;
+	color: #838994;
+	padding-top:1rem;	 
+}
+
