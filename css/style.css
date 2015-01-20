@@ -117,13 +117,10 @@ table {
 	background-image: url("../images/first-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-<<<<<<< HEAD
 	padding-bottom: 17rem; 
 	margin: 0 auto;
-=======
 	background-position: center bottom;
 	height: 735px; 
->>>>>>> master
 	color:white;
 }
 
@@ -253,7 +250,6 @@ table {
 	color:#55acee;
 }
 
-<<<<<<< HEAD
 .social > .content > .facebook {
 	color: #4c66a4;
 }
@@ -264,8 +260,6 @@ table {
 .social > .content > ul > li > i {
 	padding:1rem;
 }
-
->>>>>>> 5b0d8d52a65d635ce7c898a40f4c50dd4837030e
 
 .social > .content > .instagram {
 	color: #3f729b;
