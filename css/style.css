@@ -245,6 +245,10 @@ table {
 
 }
 
+.social > .content > ul > li > i {
+	padding:1rem;
+}
+
 
 .social >.content > p {
 	font-family: 'roboto' sans-serif;
