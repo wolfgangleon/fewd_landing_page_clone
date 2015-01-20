@@ -229,26 +229,35 @@ table {
 .social > .content > ul {
 	margin: 0 auto;
 	text-align: center;
-	padding:2rem;
-	border: 1.5rem;
-	
 }
  
 .social >.content > ul > li {
 	display: inline;
-	margin-right: 1rem;
-	margin-left: 1rem;
+	margin-right: 0.3rem;
+	margin-left: 0.3rem;
 
 }
 
 .social > .content > ul > li> i {
-	padding:1rem;
+	text-align: center;
+	padding:0.5rem;
 	height: 1.5rem;
 	width: 1.5rem;
 	border:1px solid lightgray;
 	border-radius: 50%;
 }
 
+.social> .content > .twitter {
+	color:#55acee;
+}
+
+.social > .content > .facebook {
+	color: #4c66a4;
+}
+
+.social > .content > .instagram {
+	color: #3f729b;
+}
 .social >.content > p {
 	font-family: 'roboto' sans-serif;
 	text-align: center;
