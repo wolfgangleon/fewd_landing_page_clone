@@ -116,8 +116,8 @@ table {
 .introduction > .content {
 	background-image: url("../images/first-background.jpg");
 	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	height: 735px; 
+	background-size: cover;
+	padding-bottom: 17rem; 
 	margin: 0 auto;
 	color:white;
 	overflow: auto 0;
