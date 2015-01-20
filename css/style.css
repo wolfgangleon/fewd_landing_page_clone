@@ -253,12 +253,19 @@ table {
 	color:#55acee;
 }
 
+<<<<<<< HEAD
 .social > .content > .facebook {
 	color: #4c66a4;
 }
 .social > .content > ul > li > i {
 	padding:0.5rem;
 }
+=======
+.social > .content > ul > li > i {
+	padding:1rem;
+}
+
+>>>>>>> 5b0d8d52a65d635ce7c898a40f4c50dd4837030e
 
 .social > .content > .instagram {
 	color: #3f729b;
