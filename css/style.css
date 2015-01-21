@@ -246,17 +246,27 @@ table {
 	line-height: 25px;
 }
 
-.social> .content > .twitter {
+.social> .content >  ul > li > .fa.fa-twitter {
 	color:#55acee;
 }
 
-.social > .content > .facebook {
+.social > .content >  ul > li > .fa.fa-facebook {
 	color: #4c66a4;
 }
+<<<<<<< HEAD
+=======
 
-.social > .content > .instagram {
+.social > .content > ul > li > .fa.fa-instagram {
 	color: #3f729b;
 }
+
+.social > .content > ul > li > i {
+	padding:0.5rem;
+}
+>>>>>>> master
+
+
+
 .social >.content > p {
 	font-family: 'roboto' sans-serif;
 	text-align: center;
